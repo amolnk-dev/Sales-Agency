@@ -32,7 +32,6 @@ const pricingPlans: PricingGroup[] = [
     plans: [
       {
         name: "Starter Plan",
-        price: "$1,500",
         description: "Workflow automation solutions for startups and small businesses",
         formUrl:
           "https://docs.google.com/forms/d/e/1FAIpQLSd7o6blY4Sj9IEo-x6rCLmcGChjYPIiLDbVa7hQQ3YxSlYg5w/viewform?embedded=true",
@@ -45,7 +44,6 @@ const pricingPlans: PricingGroup[] = [
       },
       {
         name: "Growth Plan",
-        price: "$8,000+",
         description: "Advanced automation with custom integrations for scaling businesses",
         formUrl:
           "https://docs.google.com/forms/d/e/1FAIpQLScDgrbCXVeYF0Hd1cZCM5eysXRDuLStWsdQUN8TCtkIFPpXVQ/viewform?embedded=true",
@@ -64,7 +62,6 @@ const pricingPlans: PricingGroup[] = [
     plans: [
       {
         name: "Advanced AI Agent",
-        price: "Custom",
         description: "Customized AI agents for business support, and operations",
         formUrl:
           "https://docs.google.com/forms/d/e/1FAIpQLSeIfVam_o1H4GxOkWxdJFX19K_zRF8-kHIxZ77UzhcSTHTD6w/viewform?embedded=true",
@@ -83,7 +80,6 @@ const pricingPlans: PricingGroup[] = [
     plans: [
       {
         name: "iOS & Android",
-        price: "Custom",
         description: "High performance cross platform mobileapp services",
         formUrl:
           "https://docs.google.com/forms/d/e/1FAIpQLSfx9iyAiZBKm-QUuTfWr6m6rPEHyDs-BUaR20_Zy2jE0052Yw/viewform?embedded=true",
@@ -102,7 +98,6 @@ const pricingPlans: PricingGroup[] = [
     plans: [
       {
         name: "Growth Plan",
-        price: "$3,000/month",
         description: "Boost brand visibility with 100K+ targeted Reddit impressions",
         formUrl:
           "https://docs.google.com/forms/d/e/1FAIpQLSfNGeFtsUnEAHO3n5lneMCZdonETuRcdDZ1H7ELa5gK9qk_UA/viewform?embedded=true",
@@ -115,7 +110,6 @@ const pricingPlans: PricingGroup[] = [
       },
       {
         name: "Premium Plan",
-        price: "$5,000/month",
         description: "Scale your online presence with 200K+ impressions and brand authority",
         formUrl:
           "https://docs.google.com/forms/d/e/1FAIpQLSfvpUTB0oGOsVI6J7MqpdYZgpSj96Y4Ni4q8Srwa7XtG36IGA/viewform?embedded=true",
