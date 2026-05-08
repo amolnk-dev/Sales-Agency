@@ -163,9 +163,9 @@ export function Process() {
             <div className="space-y-6">
               {steps.map((step) => (
                 <div key={step.number} className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-                    <span className="text-sm font-semibold text-primary-foreground">
-                      {step.number}
+                  <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+                    <span className="text-lg font-semibold text-primary-foreground">
+                      ✓
                     </span>
                   </div>
 
