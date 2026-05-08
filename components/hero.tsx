@@ -31,7 +31,7 @@ export function Hero() {
         </h1>
 
         <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-pretty">
-          Providing high performance solutions that improves business growth. No fluff, just results.
+          Providing high performance solutions that improves business growth. No fluff, just results
         </p>
 
         {/* Buttons */}
