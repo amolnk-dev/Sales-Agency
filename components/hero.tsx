@@ -11,7 +11,7 @@ export function Hero() {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-gradient-to-b from-primary/20 via-primary/5 to-transparent rounded-full blur-3xl opacity-60" />
         <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-primary/15 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-orange-400/10 rounded-full blur-3xl animate-pulse delay-1000" />
+        <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
       {/* Content */}
@@ -25,7 +25,7 @@ export function Hero() {
           <span className="text-foreground">
             We Build
           </span>{" "}
-          <span className="bg-gradient-to-r from-primary via-cyan-400 to-orange-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
             What You Need.
           </span>
         </h1>
