@@ -155,7 +155,7 @@ export default function Home() {
             </span>
 
             <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-              Plan
+              Plans with features
             </h1>
 
           </div>
