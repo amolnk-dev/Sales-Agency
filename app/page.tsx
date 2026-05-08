@@ -11,7 +11,7 @@ import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 import { Check } from "lucide-react"
 
-const ACCENT = "#00b894"
+const ACCENT = "#FF8C00"
 
 type Plan = {
   name: string

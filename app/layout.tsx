@@ -7,19 +7,19 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Redif Solutions',
+  title: 'Vegam Infotech',
   description:
-    'AI Development and Digital Marketing agency delivering expert solutions to accelerate business growth. - redifsolvsofficial@gmail.com',
+    'AI Development and Digital Marketing agency delivering expert solutions to accelerate business growth. - info@vegaminfotech.com',
 
 
   icons: {
     icon: [
       { url: '/favicon.ico', type: 'image/png', sizes: '32x32' },
-      { url: '/logo.png', type: 'image/png', sizes: '32x32' },
-      { url: '/logo.png', type: 'image/png', sizes: '192x192' },
+      { url: '/vegam-logo.png', type: 'image/png', sizes: '32x32' },
+      { url: '/vegam-logo.png', type: 'image/png', sizes: '192x192' },
     ],
     shortcut: '/favicon.ico',
-    apple: '/logo.png',
+    apple: '/vegam-logo.png',
   },
 }
 

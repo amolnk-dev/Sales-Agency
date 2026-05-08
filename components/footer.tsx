@@ -9,13 +9,13 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <Image
-              src="/logo.png"
-              alt="redifsolvs Logo"
+              src="/vegam-logo.png"
+              alt="Vegam Infotech Logo"
               width={40}
               height={40}
               className="w-8 h-8"
             />
-            <span className="font-bold text-xl text-foreground">Redif Solutions</span>
+            <span className="font-bold text-xl text-foreground">Vegam Infotech</span>
           </div>
 
           <div className="flex items-center gap-8 text-sm text-muted-foreground">
@@ -28,7 +28,7 @@ export function Footer() {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Redif Solutions
+            &copy; {new Date().getFullYear()} Vegam Infotech
           </p>
         </div>
       </div>

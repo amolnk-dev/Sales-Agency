@@ -99,14 +99,14 @@ export function Process() {
         useSlotsViewOnSmallScreen: true, // FIXED (boolean)
       },
       buttonText: "Book Call",
-      buttonColor: "#00b894",
+      buttonColor: "#003D82",
       buttonTextColor: "#ffffff",
     })
 
     // ✅ UI Config
     window.Cal.ns["25m"]("ui", {
       cssVarsPerTheme: {
-        light: { "cal-brand": "#00b894" },
+        light: { "cal-brand": "#003D82" },
         dark: { "cal-brand": "#fafafa" },
       },
       hideEventTypeDetails: false,

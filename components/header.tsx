@@ -15,14 +15,14 @@ export function Header() {
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
           <Image
-            src="/logo.png"
-            alt="redifsolvs Logo"
+            src="/vegam-logo.png"
+            alt="Vegam Infotech Logo"
             width={40}
             height={40}
             className="w-8 h-8"
           />
           <span className="font-bold text-xl text-foreground">
-            Redif Solutions
+            Vegam Infotech
           </span>
         </a>
 
