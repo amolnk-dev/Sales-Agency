@@ -151,16 +151,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
             <span className="text-sm font-medium uppercase" style={{ color: ACCENT }}>
-              Pricing
+              Ethical pricing
             </span>
 
             <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-              Select your plan
+              Plan
             </h1>
 
-            <p className="text-muted-foreground max-w-3xl mx-auto">
-              Transparent pricing. No hidden fees.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
