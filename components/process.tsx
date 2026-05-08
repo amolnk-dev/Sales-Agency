@@ -6,41 +6,41 @@ import { Button } from "@/components/ui/button"
 const steps = [
   {
     number: 1,
-    title: "Discovery",
+    title: "Strategic Discovery",
     description:
-      "We learn about your business, goals, and what success looks like for you",
+      "We conduct comprehensive analysis to understand your business objectives, target audience, competitive landscape, and define success metrics.",
   },
   {
     number: 2,
-    title: "Planning",
+    title: "Strategic Planning",
     description:
-      "Our team maps out the technical approach, timeline, and deliverables",
+      "Our expert team develops a detailed technical roadmap, implementation strategy, timeline, and clearly defined deliverables aligned with your goals.",
   },
   {
     number: 3,
-    title: "Development",
+    title: "Agile Development",
     description:
-      "We build your solution with regular check-ins and progress updates",
+      "We execute your solution using industry best practices with continuous collaboration, transparent communication, and regular progress updates.",
   },
   {
     number: 4,
-    title: "Testing",
+    title: "Quality Assurance",
     description:
-      "Thorough quality checks to ensure everything works as expected",
+      "Comprehensive testing protocols ensure optimal functionality, security, performance, and user experience across all platforms and devices.",
   },
   {
     number: 5,
-    title: "Delivery",
+    title: "Launch & Support",
     description:
-      "We launch your project and provide support to keep things running smoothly",
+      "We successfully deploy your project to production and provide ongoing support, maintenance, optimization, and enhancement services.",
   },
 ]
 
 const journeySteps = [
-  "Share your project requirements with us",
-  "Get a proposal with accurate pricing",
-  "Work directly with our development team",
-  "Launch with confidence and ongoing support",
+  "Share your comprehensive project requirements and business objectives",
+  "Receive detailed proposal with transparent and competitive pricing",
+  "Collaborate directly with our experienced development specialists",
+  "Launch with confidence backed by continuous support and optimization",
 ]
 
 export function Process() {
@@ -119,7 +119,7 @@ export function Process() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-4">
           <p className="text-primary text-sm uppercase tracking-widest mb-4">
-            Our Process
+            Proven Methodology
           </p>
         </div>
 
@@ -127,11 +127,11 @@ export function Process() {
           {/* LEFT */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              How We Work
+              How We Deliver Excellence
             </h2>
 
             <p className="text-muted-foreground text-lg mb-8">
-              We keep things simple and transparent. You will always know where your project stands.
+              We maintain complete transparency throughout your project lifecycle. You will have constant visibility into project status, milestones, and deliverables.
             </p>
 
             <ul className="space-y-4 mb-8">
@@ -157,7 +157,7 @@ export function Process() {
           {/* RIGHT */}
           <div className="bg-card rounded-2xl p-8 border border-border">
             <h3 className="text-xl font-semibold text-foreground mb-8">
-              Your Project Journey
+              Your Success Journey
             </h3>
 
             <div className="space-y-6">

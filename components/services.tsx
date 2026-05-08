@@ -5,39 +5,39 @@ import { Cog, Bot, Smartphone, Globe, MessageSquare, Palette } from "lucide-reac
 const services = [
   {
     icon: Cog,
-    title: "Automation",
+    title: "Intelligent Automation",
     description:
-      "Customized workflow automation solutions to boost productivity, efficiency, and reduce repetitive tasks.",
+      "Streamline operations with intelligent workflow automation to enhance productivity, reduce costs, and eliminate manual tasks for maximum efficiency.",
   },
   {
     icon: Bot,
-    title: "AI Agent & Integration",
+    title: "AI Agents & Integration",
     description:
-      "Deploy agents and integrations to automate support, analyze data, and execute complex tasks.",
+      "Deploy sophisticated AI agents and seamless integrations to automate customer support, enable data analytics, and execute complex business processes.",
   },
   {
     icon: Smartphone,
-    title: "MobileApp Development",
+    title: "Mobile App Development",
     description:
-      "Turn your idea into reality with high performance native and cross platform iOS Android development solutions.",
+      "Transform your vision into reality with high-performance native and cross-platform iOS and Android applications engineered for excellence.",
   },
   {
     icon: Globe,
-    title: "WebApp Development",
+    title: "Web Application Development",
     description:
-      "Build fast, secure, responsive webapp for performance, engagement, conversions, and online visibility growth.",
+      "Create fast, secure, and responsive web applications optimized for performance, user engagement, conversion rates, and digital visibility.",
   },
   {
     icon: MessageSquare,
-    title: "SAP Solutions",
+    title: "Enterprise Solutions",
     description:
-      "We manage everything you simply approve optimized content and watch your business revenue grow fast.",
+      "Deliver comprehensive enterprise solutions and strategic implementation services that optimize operations and accelerate business transformation.",
   },
   {
     icon: Palette,
-    title: "Reddit Marketing",
+    title: "Digital Marketing Strategy",
     description:
-      "We manage everything you simply approve optimized content and watch your business revenue grow fast.",
+      "Drive sustainable growth with data-driven digital marketing strategies, content optimization, and targeted campaigns across all channels.",
   }
 ]
 
@@ -47,10 +47,10 @@ export function Services() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-            Offering
+            Comprehensive Service Solutions
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-            AI development and Digital marketing to help your business move faster.
+            Advanced AI development and strategic digital marketing services designed to accelerate business momentum and drive measurable success.
           </p>
         </div>
 

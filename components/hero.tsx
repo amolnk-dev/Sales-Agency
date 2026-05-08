@@ -18,20 +18,20 @@ export function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
 
         <p className="text-primary text-sm md:text-base mb-4 tracking-wide">
-          Your search ends here
+          Transform Your Digital Future Today
         </p>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-balance">
           <span className="text-foreground">
-            We Build
+            Innovative Solutions
           </span>{" "}
           <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            What You Need.
+            for Every Challenge
           </span>
         </h1>
 
         <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-pretty">
-          Providing high performance solutions that improves business growth. No fluff, just results
+          Empowering businesses with cutting-edge AI technology, strategic digital marketing, and enterprise-grade software solutions that deliver measurable results and sustainable growth
         </p>
 
         {/* Buttons */}
