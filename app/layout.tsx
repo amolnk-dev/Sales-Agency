@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Vegam Infotech',
+  title: 'Saral Solutions',
   description:
     'AI Development and Digital Marketing agency delivering expert solutions to accelerate business growth. - info@vegaminfotech.com',
 
