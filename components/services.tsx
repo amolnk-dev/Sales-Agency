@@ -29,15 +29,15 @@ const services = [
   },
   {
     icon: MessageSquare,
-    title: "Reddit Marketing",
+    title: "SAP Solutions",
     description:
       "We manage everything you simply approve optimized content and watch your business revenue grow fast.",
   },
   {
     icon: Palette,
-    title: "Hire Freelancers",
+    title: "Reddit Marketing",
     description:
-      "Stunning animation and video editing content that captures attention, tells your story, and drives real results.",
+      "We manage everything you simply approve optimized content and watch your business revenue grow fast.",
   }
 ]
 
