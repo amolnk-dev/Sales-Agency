@@ -5,39 +5,56 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = [
   {
     quote:
-      "Team delivered our MVP on time. The communication throughout the project was excellent.",
+      "Exceptional team that delivered our MVP on time with outstanding communication throughout the project lifecycle.",
     name: "Marc S, CTO",
+    company: "Tech Innovation Studio"
   },
   {
     quote:
-      "Measurable results were delivered seamlessly through well executed automation strategies.",
+      "Outstanding results delivered seamlessly through expertly executed automation strategies and strategic implementation.",
     name: "Nore Yajdani, CEO",
+    company: "Digital Growth Partners"
   },
   {
     quote:
-      "They operate at a true 10x level, delivering exceptional results through smart automation.",
+      "Operates at an exceptional level, delivering transformative results through intelligent automation and strategic optimization.",
     name: "Dr. Anup Kelgaonkar, Author",
+    company: "Innovation Research Institute"
   },
   {
     quote:
-      "Their team built our platform efficiently with exceptional quality and a smooth, impactful experience.",
+      "Built our platform efficiently with exceptional quality, superior user experience, and professional execution throughout.",
     name: "Dipesh Agarwal, COO",
+    company: "Enterprise Solutions Ltd"
   },
   {
     quote:
-      "Performed at a high automation level, achieving strong results through optimized processes.",
+      "Demonstrated advanced expertise in automation, achieving impressive results through optimized processes and innovation.",
     name: "Gaglani Parth, Founder",
+    company: "Startup Ventures"
+  },
+  {
+    quote:
+      "Professional team that understands business needs and translates them into high-quality digital solutions with precision.",
+    name: "Sarah Johnson, Product Lead",
+    company: "SaaS Innovations"
   },
 ]
 
 export function Testimonials() {
   return (
-    <section className="py-24 px-4 overflow-hidden">
+    <section className="py-24 px-4 overflow-hidden bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
+          <p className="text-primary text-sm uppercase tracking-widest mb-4">
+            Client Success Stories
+          </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-            Testimonials
+            Trusted by Industry Leaders
           </h2>
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            Discover how businesses achieve measurable success through our innovative solutions and expert guidance.
+          </p>
         </div>
 
         <div className="relative w-full overflow-hidden">
@@ -45,18 +62,32 @@ export function Testimonials() {
             {[...testimonials, ...testimonials].map((testimonial, index) => (
               <Card
                 key={index}
-                className="bg-card border-border min-w-[320px] max-w-[320px] h-[260px] flex-shrink-0"
+                className="bg-card border border-border min-w-[340px] max-w-[340px] h-[280px] flex-shrink-0 hover:shadow-lg transition-shadow duration-300"
               >
                 <CardContent className="pt-8 h-full flex flex-col justify-between">
                   <div>
-                    <p className="text-foreground text-lg mb-6 leading-relaxed">
+                    <div className="flex gap-1 mb-4">
+                      {[...Array(5)].map((_, i) => (
+                        <div
+                          key={i}
+                          className="w-4 h-4 rounded-full"
+                          style={{ backgroundColor: "#003D82" }}
+                        />
+                      ))}
+                    </div>
+                    <p className="text-foreground text-base leading-relaxed">
                       &quot;{testimonial.quote}&quot;
                     </p>
                   </div>
 
-                  <p className="font-semibold text-foreground">
-                    {testimonial.name}
-                  </p>
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      {testimonial.name}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      {testimonial.company}
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -66,7 +97,7 @@ export function Testimonials() {
 
       <style jsx>{`
         .animate-scroll {
-          animation: scroll 12s linear infinite;
+          animation: scroll 18s linear infinite;
         }
 
         @keyframes scroll {
